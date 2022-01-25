@@ -1,0 +1,151 @@
+
+
+body { background-color: rgb(143, 199, 199);
+    color:darkred;
+    font: 16px Arial, Helvetica, sans-serif;
+
+} 
+
+
+.box1 { background-color: burlywood;
+color: rgba(107, 69, 20, 0.74);
+border: 5px darkred dotted;
+padding: 10px 20px;
+}
+
+.container  { margin:auto;width:80%;
+
+    }
+
+    .box2 h1
+    
+    { font-family: Georgia, 'Times New Roman', Times, serif;
+        color: rgba(231, 14, 195, 0.74);
+        font-style: italic;
+        text-decoration:underline;
+        text-transform: uppercase;
+        letter-spacing: 0em;
+        word-spacing: 1em;
+        text-align: center;
+    
+
+
+        }
+
+        .box2 { border-radius: 20px;
+
+            color: rgba(224, 16, 207, 0.938);
+
+        margin-top: 50px;
+        border:deeppink 5px dotted;
+        padding:10px 20px;  }
+
+
+
+        button { 
+background-color: rgba(224, 16, 207, 0.938);border-radius: 5px;  color:seashell;padding: 5px 10px;
+
+              }
+
+                button:hover { 
+background-color: rgba(189, 158, 179, 0.938);
+
+              }
+              button:active{ 
+                background-color: rgb(167, 26, 223);
+                
+                              }
+
+        .list li{ 
+
+        list-style:square;
+        list-style-image: url(../image/mark.png);
+          }
+
+          a{ 
+
+            color:sienna
+            
+              }
+
+              a:hover{ 
+
+                color:rgb(228, 190, 24)
+                
+                  } 
+
+             
+                  a:visited{ 
+
+                    color:rgb(24, 129, 228)
+                    
+                      }      
+
+        .block{ float:left;
+            width:33.3%;
+            box-sizing: border-box;
+
+                  color:rgb(24, 129, 228);
+                  border:1px deeppink solid;
+                  padding: 10px;
+                                     
+                          }   
+
+
+          
+        #mainbox{ float:left;
+            width:70%;
+            box-sizing: border-box;
+
+                  color:rgb(228, 24, 51);
+                  border:1px rgb(184, 35, 35) solid;
+                  padding: 10px;
+                                     
+                          }                  
+
+
+                          #sidebox{ float:left;
+                            width:30%;
+                            box-sizing: border-box;
+                
+                                  color:rgb(228, 24, 51);
+                                  border:1px rgb(184, 35, 35) solid;
+                                  padding: 10px;
+                                                     
+                                          }    
+
+ .list2 li:nth-child(even) { background-color:rgb(214, 164, 191); 
+                             
+                  }  
+ .list2 li:first-child { color:rgb(194, 50, 127); 
+                             
+                                              
+                  }                  
+
+ .postionbox { color:rgb(228, 115, 40); 
+    border-style: dotted;
+                             width: 250px;height: 250px;
+                             position:relative;margin-left: 100px;
+                                              
+                  }     
+
+    .postionbox h1 { color:rgb(228, 115, 40); 
+                   position:absolute; top:50px;left:30px;
+                                                              
+                                  }  
+
+      .postionbox h2 { color:rgb(228, 115, 40); 
+                                    position:absolute; right:30px;
+                                                                               
+                                                   }  
+                                                   .postionbox h3 { color:rgb(228, 115, 40); 
+                                                                                 position:absolute; right:100px;top: 100px;
+                                                                                                                            
+                                                                                                }  
+
+      .postionbox h4 { color:rgb(228, 115, 40);   position:absolute; left:80px; top: 20px;
+                                                                                                                                               
+                                                                                                                   } 
+    #buttonfix {  position:fixed; right:80px; bottom: 200px;
+                                                                                                                                               
+    } 
